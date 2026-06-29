@@ -191,7 +191,7 @@
 
         <div class="image-card" data-category="vzuttya">
             <div class="image-box">
-                <img src="https://i.postimg.cc/mD8Zf1v6/image.png" alt="Взуття">
+                <img src="IMG_3505.png" alt="Взуття">
             </div>
         </div>
 
@@ -201,7 +201,7 @@
         function filterCategory(category, buttonElement) {
             const buttons = document.querySelectorAll('.btn');
             buttons.forEach(btn => btn.classList.remove('active'));
-            buttonElement.classList.add('active');
+            buttonElement.className.add('active');
 
             const cards = document.querySelectorAll('.image-card');
             cards.forEach(card => {
